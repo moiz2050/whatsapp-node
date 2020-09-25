@@ -7,7 +7,7 @@ import cors from "cors";
 
 // app config
 const app = express();
-const port = process.env.port || 9001;
+const port = process.env.PORT || 9001;
 
 const pusher = new Pusher({
     appId: '1079381',
